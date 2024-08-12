@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --bg-color: #000;
+    --cinza: #a7a7a7;
+    --cor-principal: #6aa110;
+    --fonte-destaque: 'Krona One', sans-serif;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --branco: #fff;
+
+}
+
+*{
+    background-color: var(--bg-color) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+hr{
+    border: 0 ;
+    height: 1px;
+    margin: 0;
+    background-color: var(--cinza); 
+    width: 100vw;
+}
+
+.cabecalho{
+    padding: 5px;
+}
+
+.cabecalho div{
+    margin: 10px;
+}
+
+.cabecalho div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho_logo{
+    font-size: 30px;
+    font-family: var(--fonte-destaque);
+  
+}
+
+.cabecalho_logo h3 a{
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.cabecalho_lista{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.lista_itens a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal) ;
+    color: var(--cinza);
+}
+.lista_itens a:hover{
+    color: var(--cor-principal);
+}
+
+.sessao_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Espaçamento entre o texto e a imagem */
+    max-width: 100%; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    height: 100vh;
+
+}
+
+.sessao_texto{
+    max-width: 50%;
+    padding: 100px;
+}
+.sessao_texto h1{
+    color: #a7a7a7;
+    font-size: 36px;
+    font-family: var(--fonte-destaque);
+  
+}
+
+.sessao_texto h1 strong{
+    color: var(--cor-principal);
+}
+
+.sessao_texto p{
+    color: var(--cinza);
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+    margin-top: 80px;
+    
+}
+
+.sessao_img {
+    max-width: 50%; 
+
+}
+

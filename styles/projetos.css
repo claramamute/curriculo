@@ -1,0 +1,82 @@
+@import url('../style.css');
+
+
+.card {
+    background-color: var(--bg-color);
+    box-shadow: 0px 4px 4px var(--cinza);
+    border-radius: 10px;
+    border: 4px solid var(--cor-principal);
+    margin-left: 4em;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.card_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.card_img img {
+    max-width: 100%;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; /* mudança de tamanho  de maneira suave ao longo de 0.3 segundos*/
+}
+
+.card_img img:hover{
+    transform: scale(1.1);  /*aumenta a imagem em 10% ao passar o mouse sobre ela */
+    cursor: zoom-in;
+}
+
+.descricao {
+    color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    gap: 35px; /* Espaçamento entre título, descrição e stacks */
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.stacks ul {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 70px; /* Espaçamento acima das stacks */
+}
+
+.stacks ul li {
+    color: var(--cinza);
+}
+
+.descricao h3{
+    font-family: var(--fonte-destaque);
+}
+
+.descricao p{
+    font-family: var(--fonte-principal);
+}
+
+.stacks_lista{
+    font-family: var(--fonte-destaque);
+}
+
+.lista_itens_card{
+    font-family: var(--fonte-principal);
+}
+

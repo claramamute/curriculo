@@ -1,0 +1,11 @@
+@import url('../style.css');
+
+section div{
+    display: flex;
+    justify-content: center;
+}
+
+section div img{
+    width: 30vw;
+    margin: 50px;
+}

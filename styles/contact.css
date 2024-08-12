@@ -1,0 +1,99 @@
+@import url('../style.css');
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contato {
+ 
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.contato h2 {
+    color: var(--cinza);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 24px;
+}
+
+.form_contato {
+    display: flex;
+    flex-direction: column;
+}
+.form_contato textarea {
+
+    color: var(--branco); /* Cor do texto */
+}
+
+.form_contato label {
+    margin-bottom: 5px;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+
+}
+
+.form_contato input[type="text"],
+.form_contato input[type="email"],
+.form_contato textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form_contato button {
+    padding: 10px;
+    background: var(--cor-principal);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: var(--fonte-principal);
+}
+
+.form_contato button:hover {
+    background: #555;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social_lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.social_lista li {
+    margin: 5px;
+}
+
+.social_lista a {
+    color: var(--cinza);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 2px solid var(--cor-principal); 
+    background-color: var(--cor-principal); 
+    color: var(--branco); 
+    text-align: center; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.social_lista button:hover {
+    background: var(--cinza);
+}
+
+
