@@ -112,3 +112,50 @@ hr{
 
 }
 
+@media (max-width: 600px){
+   
+    .cabecalho_logo{
+        font-size: 15px;
+    }
+    .cabecalho_lista {
+       
+        gap: 10px;
+    }
+    .lista_itens a{
+        font-size: 10px;
+    }
+
+    .sessao_principal {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        height: auto;
+    }
+
+    .sessao_texto {
+        max-width: 100%;
+        padding: 20px;
+    }
+    hr{
+        width: 100%;
+    }
+    .sessao_img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .sessao_img img{
+        width: 400px;
+    }
+    
+
+    .sessao_texto h1 {
+        font-size: 28px;
+    }
+
+    .sessao_texto p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+}

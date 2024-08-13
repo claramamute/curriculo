@@ -88,3 +88,28 @@
     font-family: var(--fonte-principal);
 }
 
+@media (max-width: 600px) {
+    .card {
+        max-width: 60%; 
+        margin: 2em 0.5em; /* Reduz a margem para economizar espaço */
+        padding: 1em;
+    }
+
+    .cards {
+        flex-direction: column; /* Empilha os cards verticalmente */
+        justify-content: flex-start; /* Alinha os cards no início */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+
+   
+    .descricao, .stacks ul {
+        margin-left: 0; /* Remove o deslocamento à esquerda */
+        margin-top: 20px; /* Reduz o espaçamento acima das stacks */
+        gap: 20px; /* Ajusta o espaçamento entre elementos */
+    }
+
+    .stacks ul {
+        flex-wrap: wrap; /* Permite que as stacks se quebrem em várias linhas */
+        gap: 10px; /* Ajusta o espaçamento entre as stacks */
+    }
+}
